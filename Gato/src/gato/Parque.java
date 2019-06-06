@@ -11,11 +11,13 @@ package gato;
  */
 public class Parque {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+   public static int main (String[]args){
+       Gato velho = new Gato("Lucas");
+       velho.miar();
+       Gato novo = new Gato("Maria");
+       novo.miar();
+       return 0;
+      
+   }
     
 }
